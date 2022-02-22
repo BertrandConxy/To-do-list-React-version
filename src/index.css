@@ -76,9 +76,10 @@ h1 {
   margin-bottom: 2rem;
   line-height: 1em;
   color: #1ddbcb41;
-  text-transform: 'lowercase';
-  text-align: "center";
+  text-transform: lowercase;
+  text-align: center;
 }
+
 .navBar {
   display: flex;
   justify-content: center;
@@ -98,6 +99,7 @@ h1 {
 a {
   text-decoration: none;
 }
+
 .active {
   color: orangered;
   text-decoration: none;
