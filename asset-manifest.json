@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/BertrandConxy/To-do-list-React-version/static/css/main.9ec72fb3.css",
-    "main.js": "/BertrandConxy/To-do-list-React-version/static/js/main.20983164.js",
+    "main.css": "/BertrandConxy/To-do-list-React-version/static/css/main.3377bb1f.css",
+    "main.js": "/BertrandConxy/To-do-list-React-version/static/js/main.5c2dacb5.js",
     "index.html": "/BertrandConxy/To-do-list-React-version/index.html",
-    "main.9ec72fb3.css.map": "/BertrandConxy/To-do-list-React-version/static/css/main.9ec72fb3.css.map",
-    "main.20983164.js.map": "/BertrandConxy/To-do-list-React-version/static/js/main.20983164.js.map"
+    "main.3377bb1f.css.map": "/BertrandConxy/To-do-list-React-version/static/css/main.3377bb1f.css.map",
+    "main.5c2dacb5.js.map": "/BertrandConxy/To-do-list-React-version/static/js/main.5c2dacb5.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ec72fb3.css",
-    "static/js/main.20983164.js"
+    "static/css/main.3377bb1f.css",
+    "static/js/main.5c2dacb5.js"
   ]
 }
