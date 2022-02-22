@@ -6,7 +6,6 @@ const About = () => (
     <p>
       This is the app that can help you to organise your day.
       This is the app that can help you to organise your day.
-      This is the app that can help you to organise your day
     </p>
   </div>
 );
