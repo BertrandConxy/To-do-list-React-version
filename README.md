@@ -1,7 +1,13 @@
+# ![](https://img.shields.io/badge/Microverse-blueviolet)
+
 # To-do list app [React version]
 
 Remember the to do list app? It is the app that helps someone to plan for the day activities so that he/she may track the progress which increases productivity. This is the React version of it
 
+## Built With
+
+- HTML and CSS
+- React.js
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -51,3 +57,45 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+## Project Status
+
+This project is finished and deplyed with Github pages.
+
+## Screenshoots
+![Screenshot (28)](https://user-images.githubusercontent.com/90222110/155112486-9ef8f556-e195-4f94-a9a9-189161fdfe30.png)
+
+
+
+## Live Demo link
+
+
+
+## Issues
+
+Up to now, there are no issues with it.
+
+Here is the link to the Issues tab:
+
+<https://github.com/BertrandConxy/To-do-list-React-version/issues>
+
+## Authors
+
+👤 **Bertrand Mutangana Ishimwe**
+
+- GitHub: [@BertrandConxy](https://github.com/BertrandConxy)
+- Twitter: [@Bconxy](https://twitter.com/Bconxy)
+- LinkedIn: [Bertrand Mutangana Ishimwe](https://www.linkedin.com/in/bertrand-mutangana-024905220/)
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Thanks to Vanafor your help.
+- Thanks to everyone else who helped me.
+
+
