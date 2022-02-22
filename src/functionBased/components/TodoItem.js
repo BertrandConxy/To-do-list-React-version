@@ -2,6 +2,7 @@
 /* eslint-disable react/prop-types */
 
 import React, { useState, useEffect } from 'react';
+import { FaTrash } from 'react-icons/fa';
 import styles from './TodoItem.module.css';
 
 const TodoItem = (props) => {
@@ -49,7 +50,7 @@ const TodoItem = (props) => {
         />
         {' '}
         <button type="button" onClick={() => delHandlerProps(id)}>
-          Delete
+          <FaTrash style={{ color: 'orangered', fontSize: '16px' }} />
         </button>
         <span style={completed ? completedSyles : null}>{title}</span>
       </div>

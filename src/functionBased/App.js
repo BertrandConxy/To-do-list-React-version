@@ -3,10 +3,14 @@
 /* eslint-disable react/destructuring-assignment */
 /* eslint-disable react/prefer-stateless-function */
 import React, { useState, useEffect } from 'react';
+import { Route, Routes } from 'react-router-dom';
 import { v4 as uuidv4 } from 'uuid';
 import Header from './components/Header';
 import InputTodo from './components/InputTodo';
 import TodosList from './components/TodosList';
+import About from './pages/About';
+import NotMatch from './pages/NotMatch';
+import NavBar from './components/NavBar';
 
 const App = () => {
   const getInitialTodos = () => {
@@ -82,18 +86,32 @@ const App = () => {
     }));
   };
   return (
-    <div className="container">
-      <div className="inner">
-        <Header />
-        <InputTodo addTodoProps={addTodoItem} />
-        <TodosList
-          todos={todos}
-          handleChangeProps={handleChange}
-          delHandlerProps={delTodo}
-          updateHandlerProps={setUpdate}
-        />
-      </div>
-    </div>
+    <>
+        <NavBar/>
+      <Routes>
+          <Route
+            exact
+            path="/"
+            element={(
+              <div className="container">
+                <div className="inner">
+                  <Header />
+                  <InputTodo addTodoProps={addTodoItem} />
+                  <TodosList
+                    todos={todos}
+                    handleChangeProps={handleChange}
+                    delHandlerProps={delTodo}
+                    updateHandlerProps={setUpdate}
+                  />
+                </div>
+              </div>
+        )}
+          />
+          <Route path="/about" element={<About />} />
+          <Route path="*" element={<NotMatch />} />
+        </NavBar>
+      </Routes>
+    </>
   );
 };
 
