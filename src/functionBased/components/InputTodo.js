@@ -1,49 +1,42 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable react/destructuring-assignment */
-/* eslint-disable react/prefer-stateless-function */
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 
-class InputTodo extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      title: '',
-    };
-  }
-
-  onChange = (e) => {
-    this.setState({
-      title: e.target.value,
+const InputTodo = (props) => {
+  const [inputText, setInputText] = useState({
+    title: '',
+  });
+  const onChange = (e) => {
+    setInputText({
+      ...inputText,
+      [e.target.name]: e.target.value,
     });
   };
 
-  submitHandler = (e) => {
-    if (this.state.title.trim()) {
-      e.preventDefault();
-      this.props.addTodoProps(this.state.title);
-      this.setState({
+  const submitHandler = (e) => {
+    e.preventDefault();
+    if (inputText.title.trim()) {
+      props.addTodoProps(inputText.title);
+      setInputText({
         title: '',
       });
     } else {
-      alert('input the task');
+      alert('Please write item');
     }
   };
-
-  render() {
-    return (
-      <form onSubmit={this.submitHandler} className="form-container">
-        <input
-          className="input-text"
-          type="text"
-          placeholder="Add to do.."
-          value={this.state.title}
-          onChange={this.onChange}
-        />
-        <input type="submit" value="Submit" className="input-submit" />
-      </form>
-    );
-  }
-}
+  return (
+    <form onSubmit={submitHandler} className="form-container">
+      <input
+        type="text"
+        className="input-text"
+        placeholder="Add todo..."
+        value={inputText.title}
+        name="title"
+        onChange={onChange}
+      />
+      <button type="button" className="input-submit">Submit</button>
+    </form>
+  );
+};
 
 export default InputTodo;
