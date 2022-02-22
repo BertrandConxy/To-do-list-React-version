@@ -13,12 +13,17 @@ const NavBar = () => {
       path: '/about',
       text: 'About',
     },
+    {
+      id: 3,
+      path: '/*',
+      text: 'Error',
+    },
   ];
   return (
     <nav className="navBar">
-      <ul>
+      <ul className="nav-list">
         {links.map((link) => (
-          <li key={link.id}>
+          <li className="nav-item" key={link.id}>
             <NavLink to={link.path}>{link.text}</NavLink>
           </li>
         ))}

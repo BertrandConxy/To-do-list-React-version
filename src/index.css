@@ -79,9 +79,27 @@ h1 {
   text-transform: 'lowercase';
   text-align: "center";
 }
+.navBar {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  font-size: 20px;
+}
 
+.nav-list {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-item {
+  margin-right: 50px;
+}
+
+a {
+  text-decoration: none;
+}
 .active {
   color: orangered;
   text-decoration: none;
-  font-size: large;
+  font-size: 30px;
 }
