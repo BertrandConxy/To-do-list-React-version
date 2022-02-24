@@ -1,18 +1,14 @@
 /* eslint-disable react/destructuring-assignment */
 /* eslint-disable react/prop-types */
 
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { FaTrash } from 'react-icons/fa';
 import styles from './TodoItem.module.css';
 
 const TodoItem = (props) => {
   const [editing, setEditing] = useState(false);
 
-  // componentWillUnmount() {
-  //   console.log('Cleaning up...');
-  // }
-
-  useEffect(() => () => console.log(' cleaned up'), []);
+  // useEffect(() => () => console.log(' cleaned up'), []);
 
   const editHanddler = () => {
     setEditing(true);

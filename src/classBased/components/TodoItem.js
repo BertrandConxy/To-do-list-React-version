@@ -13,9 +13,9 @@ class TodoItem extends Component {
     };
   }
 
-  componentWillUnmount() {
-    console.log('Cleaning up...');
-  }
+  // componentWillUnmount() {
+  //   console.log('Cleaning up...');
+  // }
 
   editHanddler = () => {
     this.setState({
@@ -25,7 +25,7 @@ class TodoItem extends Component {
 
   updateDone = (e) => {
     if (e.key === 'Enter') {
-      console.log(e.key);
+      // console.log(e.key);
       this.setState({
         editing: false,
       });

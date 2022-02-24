@@ -25,8 +25,6 @@ class InputTodo extends Component {
       this.setState({
         title: '',
       });
-    } else {
-      alert('input the task');
     }
   };
 
