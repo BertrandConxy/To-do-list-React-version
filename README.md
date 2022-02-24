@@ -71,7 +71,7 @@ This project is finished and deplyed with Github pages.
 
 ## Live Demo link
 
-
+[Live demo](https://todo250.netlify.app/)
 
 ## Issues
 
