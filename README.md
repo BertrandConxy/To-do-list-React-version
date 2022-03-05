@@ -1,4 +1,5 @@
 
+
 ![](https://img.shields.io/badge/Todolist-blue)
 
 # To-do-list-React-version
@@ -77,7 +78,7 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/BertrandConxy/To-doo-list-React-version/issues).
 
-<br>
+<br> 
 
 ## Show your support
 
@@ -86,3 +87,4 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](https://opensource.org/licenses/MIT) licensed.
+
